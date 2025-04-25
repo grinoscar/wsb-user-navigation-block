@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
 	"name": "wsb-user-navigation-block/wsb-nav",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"title": "Wsb User Nav",
 	"category": "widgets",
 	"icon": "media-interactive",
