@@ -6,7 +6,7 @@
 	"title": "Wsb User Nav",
 	"category": "widgets",
 	"icon": "media-interactive",
-	"description": "WSB Quick Event Form",
+	"description": "WSB Nav Menu",
 	"example": {},
 	"supports": {
 		"interactivity": true
