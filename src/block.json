@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wsb-user-navigation-block/wsb-nav",
+	"version": "0.0.0",
+	"title": "Wsb User Nav",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "WSB Quick Event Form",
+	"example": {},
+	"supports": {
+		"interactivity": true
+	},
+	"textdomain": "wsb-user-navigation-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
