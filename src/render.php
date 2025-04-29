@@ -12,16 +12,22 @@
 
 ?>
 
-<header class="site-header">
-  <div class="container">
+<!-- <header class="site-header"> -->
+  <div class="page-header">
+  <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true">extra</i>
+  <
     <div class="site-header__menu group">
 			<?php 
 				if (is_user_logged_in()) {
 					wp_nav_menu(array(
+            'container' => 'nav',
+            'container_class' => 'main-navigation',
 						'theme_location' => 'logged-in',
 					));
 				} else {
 					wp_nav_menu(array(
+            'container' => 'nav',
+            'container_class' => 'main-navigation',
 						'theme_location' => 'logged-out',
 					));
 				}
@@ -54,4 +60,4 @@
       </nav -->
     </div>
   </div>
-</header>
+<!-- </header> -->
