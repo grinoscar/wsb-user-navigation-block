@@ -15,6 +15,15 @@
 <!-- <header class="site-header"> -->
   <div class="page-header">
   <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true">extra</i>
+  <div>
+    <a href="<?php echo admin_url( 'profile.php' ); ?>" style="border-bottom: 1px solid #0D3B66">
+    <?php 
+      if (is_user_logged_in()) {
+        echo get_avatar(get_current_user_id(), 28); 
+      }
+    ?>
+    </a>
+  </div>
   <
     <div class="site-header__menu group">
 			<?php 
