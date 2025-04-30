@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Wsb User Navigation Block
  * Description:       Combine Fictional University user nav menu items and WSB.
- * Version:           0.0.3
+ * Version:           0.0.4
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Glenn Howald
